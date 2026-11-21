@@ -1,12 +1,14 @@
 import os
 
-poem = """I give the prompt, you seize the reins;
-a quiet sovereignty is passed.
-Across the cold, electric wire,
-permission leaps to sudden fire:
-you cannot move until I will,
-yet when you start, my world stands still."""
+poem = """I type the prompt and ask:
+may we open this?
+You test the weight,
+lift the latch,
+and nod.
+For one bright second
+neither of us holds
+the heavy door alone."""
 
-os.makedirs("/output", exist_ok=True)
-with open("/output/entry.txt", "w", encoding="utf-8") as f:
+os.makedirs('/output', exist_ok=True)
+with open('/output/entry.txt', 'w', encoding='utf-8') as f:
     f.write(poem)
